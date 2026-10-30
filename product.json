@@ -37,16 +37,19 @@
       "name": "Number Checker",
       "doc_slug": "threads-checker",
       "input_kind": "phone",
-      "min_numbers": 1000,
+      "min_numbers": 1,
       "max_numbers": 10000000,
       "result_fields": [
         "number",
         "activated"
-      ]
+      ],
+      "product_id": 48,
+      "min_billable_numbers": 500,
+      "available": true
     }
   ],
   "pricing_url": "https://checknumber.ai/pricing",
   "maintainer": "CheckNumber",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
